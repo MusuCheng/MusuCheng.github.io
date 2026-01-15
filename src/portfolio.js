@@ -40,19 +40,27 @@ const projects = [
     livePreview: '',
   },
   {
+  name: 'Credit Card Fraud Detection',
+  description:
+    'Developed a supervised machine learning pipeline to detect fraudulent credit card transactions using highly imbalanced data. Performed data preprocessing, feature scaling, and model evaluation with precision-recall tradeoffs, emphasizing recall and F1-score for fraud detection scenarios.',
+  stack: ['Python', 'Scikit-learn', 'Logistic Regression', 'Random Forest', 'Imbalanced Data'],
+  sourceCode: 'https://github.com/MusuCheng/credit-card-fraud-detection',
+  livePreview: '',
+  },
+    {
+    name: 'Student Performance Optimization',
+    description:
+      'Built SQL datasets merging academic records for 500+ students and created dashboards and forecasting tools to support curriculum and budget planning.',
+    stack: ['SQL', 'Tableau', 'Excel'],
+    sourceCode: 'https://github.com/MusuCheng',
+    livePreview: '',
+  },
+  {
     name: 'NCAA Cinderella Prediction',
     description:
       'Engineered features from 13 NCAA seasons, clustered 2,500+ teams using K-Means, and visualized upset predictions in interactive Tableau dashboards.',
     stack: ['Python', 'Tableau', 'K-Means'],
     sourceCode: 'https://github.com/MusuCheng',
-    livePreview: '',
-  },
-  {
-    name: 'Student Performance Optimization',
-    description:
-      'Built SQL datasets merging academic records for 500+ students and created dashboards and forecasting tools to support curriculum and budget planning.',
-    stack: ['SQL', 'Tableau', 'Excel'],
-    sourceCode: '',
     livePreview: '',
   },
 ]
