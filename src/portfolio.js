@@ -1,75 +1,99 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://musucheng.github.io',
+  title: 'Keyu Chen',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
-
+  name: 'Keyu (Kevin) Chen',
+  role: 'Data Analyst | Financial Analyst',
+  picture: 'profile.jpg',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Recent graduate of Rutgers Business School (MITA) with hands-on experience in analytics and financial modeling. Skilled in building end-to-end data workflows and dashboards using Python, SQL, Tableau, Power BI, and AWS to support forecasting, KPI tracking, and business decision-making.',
+  resume: 'KevinResume_FDA.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/keyuc',
+    github: 'https://github.com/MusuCheng',
   },
 }
 
+/**
+ * ✅ Project keyword bolding (next step):
+ * If you want keywords like AWS / PySpark / Redshift to be bold inside description,
+ * we can change the ProjectContainer to render description as HTML.
+ * Then you can write: 'Built a <strong>AWS</strong> pipeline ...' here.
+ */
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Real-Time Stock Price Streaming & AI Forecasting Pipeline',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'Built a real-time stock data pipeline on AWS (Kinesis/Lambda/EC2) ingesting minute-level feeds. Processed streaming data with PySpark and stored in S3 + Redshift. Implemented a hybrid forecasting workflow and visualized trends and anomaly alerts in Tableau.',
+    stack: ['AWS', 'Kinesis', 'Lambda', 'EC2', 'PySpark', 'S3', 'Redshift', 'Tableau'],
+    sourceCode: 'https://github.com/MusuCheng',
+    livePreview: '',
   },
   {
-    name: 'Project 2',
+    name: 'Cat vs Dog Image Classification',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'Built an end-to-end image classification pipeline including preprocessing, model training, and evaluation. Compared deep learning baselines with traditional ML approaches.',
+    stack: ['Python', 'CNN', 'PyTorch', 'Scikit-learn'],
+    sourceCode: 'https://github.com/MusuCheng',
+    livePreview: '',
   },
   {
-    name: 'Project 3',
+    name: 'NCAA Cinderella Prediction',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Engineered features from 13 NCAA seasons, clustered 2,500+ teams using K-Means, and visualized upset predictions in interactive Tableau dashboards.',
+    stack: ['Python', 'Tableau', 'K-Means'],
+    sourceCode: 'https://github.com/MusuCheng',
+    livePreview: '',
+  },
+  {
+    name: 'Student Performance Optimization',
+    description:
+      'Built SQL datasets merging academic records for 500+ students and created dashboards and forecasting tools to support curriculum and budget planning.',
+    stack: ['SQL', 'Tableau', 'Excel'],
+    sourceCode: '',
+    livePreview: '',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  // Data & Analytics
+  'SQL',
+  'Python',
+  'Excel',
+  'Tableau',
+  'Power BI',
+
+  // Cloud & Big Data (AWS)
+  'AWS',
+  'S3',
+  'Redshift',
+  'Kinesis',
+  'Lambda',
+  'EC2',
+  'Athena',
+  'Glue',
+  'QuickSight',
+  'IAM',
+  'CloudWatch',
+  'PySpark',
+
+  // Finance & Modeling
+  'Financial Modeling',
+  'Forecasting',
+  'DCF',
+  'Scenario Analysis',
+  'Variance Analysis',
+  'Budgeting',
+
+  // Tools & Systems
+  'SAP',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'kevin.keyu.chen@rutgers.edu',
 }
 
 export { header, about, projects, skills, contact }
