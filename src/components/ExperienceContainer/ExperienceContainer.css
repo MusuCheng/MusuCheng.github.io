@@ -1,0 +1,55 @@
+.experience {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.experience:hover {
+  transform: translateY(-7px);
+}
+
+.experience__company {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.experience__meta {
+  margin: 0.6em 0 0 0;
+  color: var(--clr-fg-alt);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* bullets 更紧凑、不要像一整块段落 */
+.experience__bullets {
+  margin: 1em 0 0 0;
+  padding-left: 1.1em;
+  line-height: 1.6;
+}
+
+.experience__bullet {
+  margin: 0.45em 0;
+}
+
+/* ✅ 关键：把 stack 推到底部 */
+.experience__stack {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  list-style: none;
+}
+
+.experience__stack-item {
+  margin: 0.5em 0.7em 0 0;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
