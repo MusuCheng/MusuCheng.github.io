@@ -89,12 +89,15 @@ You can customize:
 npm install
 Start Development Server
 npm start
+```
 Open:
 
 http://localhost:3000
 🌍 Deployment (GitHub Pages)
+```bash
 npm run build
 npm run deploy
+```
 Live at:
 
 https://musucheng.github.io
