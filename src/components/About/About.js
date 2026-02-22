@@ -1,9 +1,11 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
+import { useLanguage } from '../../contexts/language'
 import './About.css'
 
 const About = () => {
+  const { lang, portfolio } = useLanguage()
+  const { about } = portfolio
   const { name, role, description, resume, social, picture } = about
 
   return (
@@ -12,7 +14,8 @@ const About = () => {
         <div className='about__intro'>
           {name && (
             <h1>
-              Hi, I am <span className='about__name'>{name}.</span>
+              {lang === 'zh' ? '你好，我是 ' : 'Hi, I am '}
+              <span className='about__name'>{name}.</span>
             </h1>
           )}
 
@@ -24,7 +27,12 @@ const About = () => {
             />
           )}
 
-          {role && <h2 className='about__role'>A {role}.</h2>}
+          {role && (
+            <h2 className='about__role'>
+              {lang === 'zh' ? '' : 'A '}
+              {role}.
+            </h2>
+          )}
 
           {description && <p className='about__desc'>{description}</p>}
         </div>
@@ -34,7 +42,7 @@ const About = () => {
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
-              Resume
+              {lang === 'zh' ? '简历' : 'Resume'}
             </span>
           </a>
         )}

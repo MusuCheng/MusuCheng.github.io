@@ -1,9 +1,10 @@
-import { header } from '../../portfolio'
+import { useLanguage } from '../../contexts/language'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
 const Header = () => {
-  const { homepage, title } = header
+  const { portfolio } = useLanguage()
+  const { homepage, title } = portfolio.header
 
   return (
     <header className='header center'>

@@ -1,0 +1,74 @@
+[33m73c1b4d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update portfolio
+[33m3cdcc64[m Update portfolio
+[33mc7c56d5[m Update portfolio
+[33ma1774c3[m Update portfolio
+[33mb2ac20e[m Update contact email
+[33m7ee049f[m Fix package.json and deploy config
+[33md8b1b55[m Merge pull request #27 from HrishiDhondge/main
+[33mdaebb7d[m Feature: Enhanced Project view with optional pictures
+[33m2c766a3[m Merge pull request #26 from rjshkhr/revert-24-main
+[33m0fe1aac[m[33m ([m[1;31morigin/revert-24-main[m[33m)[m Revert "Feature: Support project images in project cards "
+[33m2868f9d[m Merge pull request #24 from HrishiDhondge/main
+[33ma266b4d[m Feature: Support for profile picture (optional)
+[33mdc44b23[m Added the support for Project logo/image
+[33m6db286c[m Merge pull request #18 from HamidIjaz/main
+[33maa287a6[m Fix: Add aria-label to link for accessibility
+[33m83c84d3[m Update username
+[33m2b4b6ca[m Merge pull request #17 from paraskevasleivadaros/patch-1
+[33m633b5f6[m Update README.md
+[33m424a7c7[m Update README.md
+[33m445c46b[m Update README.md
+[33m6c6067c[m Merge pull request #7 from readysetgit/main
+[33m9c91b1a[m Fixed an error that occurred when trying to start the app.
+[33m1c51c77[m Merge pull request #6 from N0ahMC/main
+[33m9cf484b[m Fix openssl Bug
+[33m88e154f[m Merge pull request #4 from egor-xyz/main
+[33m7730877[m auto swap dark mode
+[33m10337e3[m Update README
+[33m7e31c4f[m Merge pull request #3 from Jesper-Hustad/main
+[33m4efd83b[m Image link to demo
+[33m816e7f6[m Change position of theme toggle icon
+[33m3cea56d[m Fix navlist
+[33m0136627[m Remove prettier error rule
+[33mcc08ddb[m Upate packages
+[33mfc65b32[m Refactor
+[33mc920531[m Update README.md
+[33mb9f4728[m Replace button with div
+[33m8ce8c63[m Disable react/prop-types rule
+[33m0ec96ce[m Remove proptypes in ProjectContainer
+[33m771b51d[m Remove buttons
+[33m6cd3880[m Style pseudo class focus of button and anchor tag
+[33mabf5f58[m Hide links from navbar when sections are not rendered
+[33mda24659[m Update README.md
+[33mf5dcb9f[m Reduce placeholder projects
+[33m765aa72[m Update README.md
+[33m4cba620[m Move ProjectContainer into separate component
+[33m2cc041f[m Update README.md
+[33meb83647[m Add .node-version
+[33md9452f2[m Update browserslist
+[33mf827704[m Separate Navbar in its own component and add navbar menu for width less than 600px
+[33me4666ec[m Add scroll to top
+[33m82e8502[m Document portfolio.js
+[33m8d64223[m Social links won't show up if social object doesn't exist
+[33m23537ac[m Change font family and color scheme
+[33m6ff586f[m Change colors and icons
+[33maa2b66f[m Change headings
+[33maee177d[m Fix contrast ratio
+[33m00d1042[m Add aria-label to links without text
+[33mcfc4e1a[m Add aria-label to theme toggle button
+[33m4573248[m Add gh-pages
+[33m64b2af5[m Add LICENCE
+[33m62b5399[m Refactor
+[33m598ef60[m Add contact section
+[33m482ef65[m Add media queries
+[33mfa0fb08[m Refactor about section
+[33me42c518[m Make resume button a link
+[33mc67fbd6[m Add button hover animation
+[33mab8f826[m Add link hover animation
+[33m42e5321[m Add projects section
+[33m600f775[m Add skills section
+[33m75803ec[m Change font family
+[33m1152aaf[m Add footer
+[33m8e9beb8[m Add about section
+[33mf1545d9[m Add header
+[33mcbaeaec[m Initial setup
