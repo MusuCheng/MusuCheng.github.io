@@ -20,7 +20,7 @@ const experiences = [
   {
     company: 'Fosun Capital Investment Management, LLC',
     role: 'Financial Data Analyst',
-    period: 'May 2024 – Dec 2024',
+    period: 'March 2021 – August 2021',
     description: [
       'Analyzed financial datasets for 10+ investment cases using Python and SQL to support valuation, portfolio monitoring, and IC decision-making.',
       'Built DCF, comps, and multi-factor valuation models; scenario analysis improved projected portfolio IRR from ~19% to 22%.',
@@ -31,7 +31,7 @@ const experiences = [
   {
     company: 'Ocean Fortune Glory Asset Management, LLC',
     role: 'Financial Data Analyst',
-    period: 'May 2023 – Aug 2023',
+    period: 'January 2020 – Aug 2020',
     description: [
       'Processed and reconciled 285K+ portfolio and transaction records using SQL and Excel to ensure recurring reporting accuracy.',
       'Built automated SQL workflows and Tableau dashboards to visualize portfolio returns and key risk indicators, improving decision efficiency.',
